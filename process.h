@@ -15,4 +15,6 @@ int process_create(void (*entry_point)(void));
 void schedule(void); // The Scheduler
 void yield(void);    // Voluntarily give up CPU
 
+void process_exit(void);
+
 #endif

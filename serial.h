@@ -9,4 +9,6 @@ void serial_putc(char c);
 void serial_puts(const char* str);
 char serial_getc(void);
 
+int serial_received(void);
+
 #endif

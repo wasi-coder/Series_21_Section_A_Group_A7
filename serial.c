@@ -50,7 +50,7 @@ void serial_puts(const char* str) {
     }
 }
 
-static int serial_received(void) {
+int serial_received(void) {
     return inb(COM1 + 5) & 0x01;
 }
 
